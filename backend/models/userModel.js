@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema(
     isAdmin: { type: Boolean, required: true, default: false },
   },
   {
-    timestamps: trun,
+    timestamps: true,
   }
 )
 
